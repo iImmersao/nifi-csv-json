@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0">
     <parent>
-        <groupId>com.example.nifi</groupId>
+        <groupId>com.iimmersao.nifi</groupId>
         <artifactId>nifi-csv-json</artifactId>
         <version>1.0.0</version>
     </parent>
@@ -11,7 +11,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.example.nifi</groupId>
+            <groupId>com.iimmersao.nifi</groupId>
             <artifactId>nifi-csv-json-processors</artifactId>
             <version>1.0.0</version>
         </dependency>
