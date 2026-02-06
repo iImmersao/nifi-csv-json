@@ -10,6 +10,14 @@
     <packaging>nar</packaging>
 
     <dependencies>
+        <!-- REQUIRED: NiFi framework -->
+        <dependency>
+            <groupId>org.apache.nifi</groupId>
+            <artifactId>nifi-framework-nar</artifactId>
+            <version>${nifi.version}</version>
+            <type>nar</type>
+        </dependency>
+
         <dependency>
             <groupId>com.iimmersao.nifi</groupId>
             <artifactId>nifi-csv-json-processors</artifactId>
